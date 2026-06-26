@@ -2,6 +2,8 @@
 
 Runtime and memory benchmarks for classic DSA algorithms : sorting, searching, and graph traversal measured across input sizes and visualized with matplotlib.
 
+![Demo](./demo.gif)
+
 ## Charts generated
 
 | Category        | Chart                                     |

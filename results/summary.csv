@@ -1,55 +1,85 @@
 category,algorithm,complexity,input_size,time_ms,memory_kb
-Sorting,Bubble Sort,O(n²),100,0.2586,0.795
-Sorting,Bubble Sort,O(n²),250,1.4097,1.953
-Sorting,Bubble Sort,O(n²),500,7.4544,3.906
-Sorting,Bubble Sort,O(n²),1000,36.2476,7.812
-Sorting,Bubble Sort,O(n²),2000,160.7304,15.625
-Sorting,Bubble Sort,O(n²),4000,686.9663,31.25
-Sorting,Selection Sort,O(n²),100,0.1256,0.781
-Sorting,Selection Sort,O(n²),250,0.7076,1.953
-Sorting,Selection Sort,O(n²),500,4.1093,3.906
-Sorting,Selection Sort,O(n²),1000,16.6303,7.812
-Sorting,Selection Sort,O(n²),2000,66.5798,15.625
-Sorting,Selection Sort,O(n²),4000,266.0159,31.25
-Sorting,Insertion Sort,O(n²),100,0.111,0.781
-Sorting,Insertion Sort,O(n²),250,0.6815,1.953
-Sorting,Insertion Sort,O(n²),500,3.4316,3.906
-Sorting,Insertion Sort,O(n²),1000,16.1145,7.812
-Sorting,Insertion Sort,O(n²),2000,69.3046,15.625
-Sorting,Insertion Sort,O(n²),4000,282.5958,31.25
-Sorting,Merge Sort,O(n log n),100,0.36,3.256
-Sorting,Merge Sort,O(n log n),250,0.8915,7.98
-Sorting,Merge Sort,O(n log n),500,1.796,15.809
-Sorting,Merge Sort,O(n log n),1000,3.7178,32.058
-Sorting,Merge Sort,O(n log n),2000,8.2555,62.652
-Sorting,Merge Sort,O(n log n),4000,15.9405,125.996
-Sorting,Quick Sort,O(n log n) avg,100,0.2186,4.168
-Sorting,Quick Sort,O(n log n) avg,250,0.5335,8.992
-Sorting,Quick Sort,O(n log n) avg,500,1.0913,17.945
-Sorting,Quick Sort,O(n log n) avg,1000,2.2555,35.613
-Sorting,Quick Sort,O(n log n) avg,2000,4.6489,65.795
-Sorting,Quick Sort,O(n log n) avg,4000,9.9358,137.854
-Sorting,Heap Sort,O(n log n),100,0.0226,1.188
-Sorting,Heap Sort,O(n log n),250,0.0395,2.953
-Sorting,Heap Sort,O(n log n),500,0.0808,6.0
-Sorting,Heap Sort,O(n log n),1000,0.1665,11.875
-Sorting,Heap Sort,O(n log n),2000,0.3529,24.219
-Sorting,Heap Sort,O(n log n),4000,0.7485,47.0
+Sorting,Bubble Sort,O(nÂ²),100,0.2486,0.795
+Sorting,Bubble Sort,O(nÂ²),250,1.4965,1.953
+Sorting,Bubble Sort,O(nÂ²),500,7.6672,3.906
+Sorting,Bubble Sort,O(nÂ²),1000,40.0404,7.812
+Sorting,Bubble Sort,O(nÂ²),2000,177.7519,15.625
+Sorting,Bubble Sort,O(nÂ²),4000,738.9271,31.25
+Sorting,Selection Sort,O(nÂ²),100,0.1164,0.781
+Sorting,Selection Sort,O(nÂ²),250,0.7005,1.953
+Sorting,Selection Sort,O(nÂ²),500,4.1271,3.906
+Sorting,Selection Sort,O(nÂ²),1000,17.9936,7.812
+Sorting,Selection Sort,O(nÂ²),2000,72.5664,15.625
+Sorting,Selection Sort,O(nÂ²),4000,294.4124,31.25
+Sorting,Insertion Sort,O(nÂ²),100,0.1123,0.781
+Sorting,Insertion Sort,O(nÂ²),250,0.7027,1.953
+Sorting,Insertion Sort,O(nÂ²),500,3.7932,3.906
+Sorting,Insertion Sort,O(nÂ²),1000,18.1061,7.812
+Sorting,Insertion Sort,O(nÂ²),2000,76.2103,15.625
+Sorting,Insertion Sort,O(nÂ²),4000,308.8597,31.25
+Sorting,Merge Sort,O(n log n),100,0.3531,3.188
+Sorting,Merge Sort,O(n log n),250,0.9775,7.98
+Sorting,Merge Sort,O(n log n),500,1.8604,15.809
+Sorting,Merge Sort,O(n log n),1000,3.8346,32.058
+Sorting,Merge Sort,O(n log n),2000,8.0472,62.652
+Sorting,Merge Sort,O(n log n),4000,16.8613,125.996
+Sorting,Quick Sort,O(n log n) avg,100,0.222,4.443
+Sorting,Quick Sort,O(n log n) avg,250,0.5441,11.418
+Sorting,Quick Sort,O(n log n) avg,500,1.1554,21.303
+Sorting,Quick Sort,O(n log n) avg,1000,2.3443,33.572
+Sorting,Quick Sort,O(n log n) avg,2000,4.8533,78.578
+Sorting,Quick Sort,O(n log n) avg,4000,10.3918,154.957
+Sorting,Heap Sort,O(n log n),100,0.0209,1.188
+Sorting,Heap Sort,O(n log n),250,0.0402,2.953
+Sorting,Heap Sort,O(n log n),500,0.0806,6.0
+Sorting,Heap Sort,O(n log n),1000,0.1874,11.875
+Sorting,Heap Sort,O(n log n),2000,0.3913,24.219
+Sorting,Heap Sort,O(n log n),4000,0.7577,47.0
 Sorting,Timsort (built-in),O(n log n),100,0.0068,0.781
 Sorting,Timsort (built-in),O(n log n),250,0.0149,1.953
-Sorting,Timsort (built-in),O(n log n),500,0.034,3.906
-Sorting,Timsort (built-in),O(n log n),1000,0.0689,11.684
-Sorting,Timsort (built-in),O(n log n),2000,0.1501,23.367
-Sorting,Timsort (built-in),O(n log n),4000,0.3228,46.74
-Searching,Linear Search,O(n),500,0.0111,0.07
-Searching,Linear Search,O(n),1000,0.0141,0.07
-Searching,Linear Search,O(n),5000,0.1,0.07
-Searching,Linear Search,O(n),10000,0.2212,0.07
-Searching,Linear Search,O(n),50000,0.9891,0.07
-Searching,Linear Search,O(n),100000,2.5057,0.07
-Searching,Binary Search,O(log n),500,0.003,0.0
-Searching,Binary Search,O(log n),1000,0.0014,0.0
-Searching,Binary Search,O(log n),5000,0.0021,0.0
-Searching,Binary Search,O(log n),10000,0.0026,0.0
-Searching,Binary Search,O(log n),50000,0.0054,0.0
-Searching,Binary Search,O(log n),100000,0.008,0.0
+Sorting,Timsort (built-in),O(n log n),500,0.0315,3.906
+Sorting,Timsort (built-in),O(n log n),1000,0.0683,11.678
+Sorting,Timsort (built-in),O(n log n),2000,0.1491,23.375
+Sorting,Timsort (built-in),O(n log n),4000,0.3935,46.75
+Searching,Linear Search,O(n),500,0.0102,0.07
+Searching,Linear Search,O(n),1000,0.0126,0.07
+Searching,Linear Search,O(n),5000,0.0763,0.07
+Searching,Linear Search,O(n),10000,0.3049,0.07
+Searching,Linear Search,O(n),50000,0.5487,0.07
+Searching,Linear Search,O(n),100000,1.2602,0.07
+Searching,Binary Search,O(log n),500,0.0036,0.0
+Searching,Binary Search,O(log n),1000,0.0035,0.0
+Searching,Binary Search,O(log n),5000,0.0025,0.0
+Searching,Binary Search,O(log n),10000,0.0034,0.0
+Searching,Binary Search,O(log n),50000,0.0073,0.0
+Searching,Binary Search,O(log n),100000,0.0085,0.0
+Searching,Jump Search,O(sqrt n),500,0.0081,0.0
+Searching,Jump Search,O(sqrt n),1000,0.0042,0.0
+Searching,Jump Search,O(sqrt n),5000,0.0128,0.0
+Searching,Jump Search,O(sqrt n),10000,0.0171,0.0
+Searching,Jump Search,O(sqrt n),50000,0.0383,0.0
+Searching,Jump Search,O(sqrt n),100000,0.0568,0.0
+Searching,Interpolation Search,O(log log n) avg,500,0.0036,0.0
+Searching,Interpolation Search,O(log log n) avg,1000,0.0015,0.0
+Searching,Interpolation Search,O(log log n) avg,5000,0.0015,0.0
+Searching,Interpolation Search,O(log log n) avg,10000,0.0025,0.0
+Searching,Interpolation Search,O(log log n) avg,50000,0.0116,0.087
+Searching,Interpolation Search,O(log log n) avg,100000,0.0148,0.081
+Graph Traversal,BFS,O(V + E),100,0.026,2.91
+Graph Traversal,BFS,O(V + E),300,0.0577,6.008
+Graph Traversal,BFS,O(V + E),600,0.118,12.098
+Graph Traversal,BFS,O(V + E),1000,0.1801,19.211
+Graph Traversal,BFS,O(V + E),2000,0.3563,35.727
+Graph Traversal,BFS,O(V + E),4000,0.8021,71.172
+Graph Traversal,DFS Recursive,O(V + E),100,0.0902,6.45
+Graph Traversal,DFS Recursive,O(V + E),300,0.4414,18.952
+Graph Traversal,DFS Recursive,O(V + E),600,1.5996,38.188
+Graph Traversal,DFS Recursive,O(V + E),1000,3.3936,63.421
+Graph Traversal,DFS Recursive,O(V + E),2000,8.4999,125.224
+Graph Traversal,DFS Recursive,O(V + E),4000,39.4239,251.095
+Graph Traversal,DFS Iterative,O(V + E),100,0.0688,1.98
+Graph Traversal,DFS Iterative,O(V + E),300,0.2058,5.641
+Graph Traversal,DFS Iterative,O(V + E),600,0.3841,11.672
+Graph Traversal,DFS Iterative,O(V + E),1000,0.717,19.203
+Graph Traversal,DFS Iterative,O(V + E),2000,1.3583,36.672
+Graph Traversal,DFS Iterative,O(V + E),4000,2.6549,74.507

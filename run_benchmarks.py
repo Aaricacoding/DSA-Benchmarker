@@ -90,7 +90,7 @@ search_results = benchmark(
     complexities={
         "Linear Search": "O(n)",
         "Binary Search": "O(log n)",
-        "Jump Search": "O(√n)",
+        "Jump Search": "O(sqrt n)",
         "Interpolation Search": "O(log log n) avg",
     },
     descriptions={
@@ -159,7 +159,7 @@ print("✓ Graph benchmarks done")
 all_results: list[BenchmarkResult] = sort_results + search_results + graph_results
 
 csv_path = f"{RESULTS_DIR}/summary.csv"
-with open(csv_path, "w", newline="") as f:
+with open(csv_path, "w", newline="", encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerow(["category", "algorithm", "complexity", "input_size",
                      "time_ms", "memory_kb"])
@@ -169,3 +169,12 @@ with open(csv_path, "w", newline="") as f:
 
 print(f"✓ Summary saved → {csv_path}")
 print("\nAll benchmarks complete. Charts saved to results/")
+
+import subprocess, os, glob
+
+print("\nOpening charts...")
+charts = sorted(glob.glob("results/*.png"))
+for chart in charts:
+    os.startfile(chart)   # Windows only — opens each PNG
+    import time
+    time.sleep(1.5)
